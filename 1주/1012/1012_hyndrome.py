@@ -1,5 +1,6 @@
 # 분류: 1주차 BFS / DFS
 # 문제: 백준 1012 유기농 배추
+# 문제 주소: https://www.acmicpc.net/problem/1012
 # 푼 사람: 진홍엽
 # 설명: BFS, 델타 탐색 사용
 
