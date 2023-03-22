@@ -4,15 +4,14 @@ from collections import deque
 input = sys.stdin.readline
 
 def BFS(i):
+    global visited
     queue = deque([i])
-    check = [0] * N
 
     while queue:
         q = queue.popleft()
         for j in range(N):
-            if not check[j] and graph[q][j] == 1:
+            if not visited[i][j] and graph[q][j] == 1:
                 queue.append(j)
-                check[j] = 1
                 visited[i][j] = 1
 
 N = int(input())
