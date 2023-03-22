@@ -21,6 +21,4 @@ visited = [[0] * N for _ in range(N)]
 
 for i in range(N):
     BFS(i)
-
-for i in visited:
-    print(*i)
+    print(*visited[i])
