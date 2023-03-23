@@ -28,3 +28,5 @@ if len(cnt_ls) == 0:
     print(-1)
 else:
     print(cnt_ls[0]-1)
+
+  
