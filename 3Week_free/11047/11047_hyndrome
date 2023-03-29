@@ -1,0 +1,17 @@
+# 분류: 3주차 자유주제
+# 문제: 백준 11047 동전0
+# 문제 주소: https://www.acmicpc.net/problem/11047
+# 푼 사람: 진홍엽
+# 설명: 음?
+
+import sys
+
+i_n, i_k = map(int, sys.stdin.readline().split())
+ls_coin = [int(sys.stdin.readline()) for i_1 in range(i_n)]
+cnt_coin = 0
+
+for i_2 in reversed(ls_coin):
+    cnt_coin += i_k // i_2
+    i_k %= i_2
+
+print(cnt_coin) 
