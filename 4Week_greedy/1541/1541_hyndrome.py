@@ -31,7 +31,6 @@ for s_1 in str_input:
 # 마지막 숫자는 연산자를 만나지 않으므로 for-else구문으로 처리
 else:
     ls_number.append(int(s_cnt))
-
 # - 연산자가 없을 경우 모든 숫자 합
 sum_max = 0
 if cnt_minus == 0:
