@@ -27,7 +27,6 @@ print(joy)
 
 
 
-
     
 n = int(input())
 
