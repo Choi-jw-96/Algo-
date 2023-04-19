@@ -32,5 +32,5 @@ for y in range(i_n):
     for x in range(i_n):
         ans = max(ans, dfs(x, y))
 
-print(dp)
+# print(dp)
 print(ans)      
