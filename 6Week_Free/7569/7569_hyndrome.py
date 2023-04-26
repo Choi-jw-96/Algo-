@@ -50,6 +50,8 @@ for z in range(i_h):
         for x in range(i_m):
             if ls_tomato[z][y][x] == 0:
                 bool_break = True
+                exit()
+                # 중첩 for문을 종료시켜주는 함수
             elif ls_tomato[z][y][x] > tomato_max:
                 tomato_max = ls_tomato[z][y][x]
 # 위의 탐색 결과에 따라 결과 출력
