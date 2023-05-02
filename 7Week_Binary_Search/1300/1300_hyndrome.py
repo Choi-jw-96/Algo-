@@ -4,6 +4,7 @@
 # 푼 사람: 진홍엽
 # 설명: 이분탐색
 
+# https://kbw1101.tistory.com/29
 
 i_n = int(input()) # 배열의 크기 N
 i_k = int(input()) # 배열을 flatten했을 때, 출력해야할 인덱스
