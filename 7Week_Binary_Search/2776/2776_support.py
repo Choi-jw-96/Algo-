@@ -18,7 +18,7 @@ for t in range(int(input())):
             # 아님 0
             if start >= end:
                 print(0)
-                breaㅏ
+                break
             # 적어논 숫자가 본 숫자보다 크면 start를 조정
             if see[mid] < n:
                 start = mid + 1
