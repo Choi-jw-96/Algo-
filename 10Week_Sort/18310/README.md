@@ -1,4 +1,4 @@
-# [알고스팟](https://www.acmicpc.net/problem/18310)
+# [안테나](https://www.acmicpc.net/problem/18310)
 
 ## 골드 4
 ### 민지's pick
