@@ -2,7 +2,7 @@ INF = int(1e9)
 
 n, m, r = map(int, input().split())
 t_list = list(map(int, input().split()))
-graph = [[INF] * n for _ in range(n)]
+graph = [[INF] * (n+1) for _ in range(n+1)]
 answer = 0
 
 for i in range(1, n + 1):
@@ -10,7 +10,7 @@ for i in range(1, n + 1):
 
 for _ in range(r):
     a, b, l = map(int, input().split())
-    graph[a][b] = min(graph[a-1][b-1], l)
+    graph[a][b] = min(graph[a][b], l)
     graph[b][a] = min(graph[b][a], l)
 
 for k in range(1, n + 1):
